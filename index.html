@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+.subnav {
+  overflow: hidden;
+  float: left;
+}
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  margin:0;
+  background-color: inherit;
+  font-family: inherit;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #eee;
+  width: 100%;
+  z-index: 1;
+}
+.subnav-content a {
+  float: left;
+  color: red;
+  text-decoration: none;
+}
+.subnav-content a:hover {
+  color: red;
+  background-color: blue;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+    </style>
+  </head>
+  <body style="background-image: url(https://istiqlal.or.id/assets/img/artikel/WhatsApp_Image_2021-08-23_at_11_42_21.jpeg)">
+    <h1 style="text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: blue;">Selamat datang </h1>
+    <div class="navbar">
+      <a href="menu utama">menu utama</a>
+      <div class="subnav">
+        <button class="subnavbtn">layanan informai<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#peminjaman">peminjaman</a>
+          <a href="#membership">membership</a>
+          <a href="#informasi">informasi</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">layanan koleksi<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#buku">buku</a>
+          <a href="#jurnal">jurnal</a>
+          <a href="#skripsi dan tesis">skripsi dan tesis</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">corner<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#bank indonesia">bank indonesia</a>
+          <a href="#BUMN">BUMN</a>
+          <a href="#kemenkes">kemenkes</a>
+          <a href="BPBD">BPBD</a>
+          <a href="#pertanian">pertanian</a>
+          <a href="#kemenhan">kemenhan</a>
+          <a href="#tni dan polri">tni dan polri</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
